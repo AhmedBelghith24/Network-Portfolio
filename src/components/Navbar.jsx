@@ -73,7 +73,7 @@ const Navbar = () => {
           ))}
           <a
             ref={resumeRef}
-            href="/resume.pdf"
+            href="/Full_Stack_Software_Engineer_Resume.pdf"
             download
             onMouseEnter={() => handleHover(resumeRef, 1.1)}
             onMouseLeave={() => handleHover(resumeRef, 1)}
