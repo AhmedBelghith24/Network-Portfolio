@@ -9,7 +9,7 @@ import Talk from './components/Talk'
 import ParticlesComponent from './components/ParticlesComponent'
 import ProjectsCLI from './components/ProjectsCLI.jsx'
 import Certificates from './components/Certificates.jsx'
-import ProjectsTopologyCLI from './components/ProjectsTopologyCLI.jsx'
+
 
 const App = () => {
   // ✅ Run ASAP to prevent hash jump + scroll restoration
