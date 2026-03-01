@@ -32,7 +32,7 @@ const ProjectsCard = ({ url, img, github, title, text }) => {
       ref={cardRef}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      className="flex flex-col lg:flex-row bg-white rounded-xl shadow-md overflow-hidden w-full max-w-7xl mx-auto h-auto lg:h-80 transition-transform duration-300"
+      className="flex flex-col lg:flex-row bg-white/95 rounded-2xl shadow-lg overflow-hidden border border-slate-200 ..."
     >
       {/* Image */}
       <img

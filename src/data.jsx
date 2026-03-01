@@ -30,105 +30,130 @@ export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
   { id: nanoid(), href: '#about', text: 'about' },
   { id: nanoid(), href: '#skills', text: 'skills' },
-  { id: nanoid(), href: '#projects', text: 'projects' },
+  { id: nanoid(), href: '#experience', text: 'experience' },
 ]
 
 export const skills = [
+  // Networking / IT (public folder icons)
   {
     id: nanoid(),
-    title: 'HTML&CSS',
-    icon: <FaHtml5 className="h-16 w-16 text-rose-500" />,
-    text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
+    title: 'SSH',
+    icon: (
+      <img
+        src="/svg/skills/ssh.png"
+        alt="SSH"
+        className="h-full w-full object-contain"
+      />
+    ),
+    text: 'Secure remote device administration using SSH.',
   },
   {
     id: nanoid(),
-    title: 'Javascript',
-    icon: <FaJs className="h-16 w-16 text-yellow-400" />,
-    text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
+    title: 'Troubleshooting',
+    icon: (
+      <img
+        src="/svg/skills/terminal.png"
+        alt="Terminal"
+        className="h-full w-full object-contain"
+      />
+    ),
+    text: 'Diagnosing network and system issues using CLI tools.',
   },
   {
     id: nanoid(),
-    title: 'React',
-    icon: <FaReact className="h-16 w-16 text-cyan-400" />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    title: 'Firewall',
+    icon: (
+      <img
+        src="/svg/skills/firewall.png"
+        alt="Firewall"
+        className="h-full w-full object-contain"
+      />
+    ),
+    text: 'Understanding firewall concepts and basic security controls.',
   },
   {
     id: nanoid(),
-    title: 'Node.js',
-    icon: <FaNodeJs className="h-16 w-16 text-green-500" />,
-    text: 'Skilled in Node.js, building scalable backend services and RESTful APIs for robust server-side applications.',
+    title: 'Servers',
+    icon: (
+      <img
+        src="/svg/skills/server.png"
+        alt="Server"
+        className="h-full w-full object-contain"
+      />
+    ),
+    text: 'Supporting infrastructure components and IT operations.',
   },
   {
     id: nanoid(),
-    title: 'Tailwind CSS',
-    icon: <SiTailwindcss className="h-16 w-16 text-sky-500" />,
-    text: 'Proficient with Tailwind CSS, using a utility-first framework to rapidly build modern, responsive designs.',
+    title: 'LAN Devices',
+    icon: (
+      <img
+        src="/svg/skills/hub.png"
+        alt="Hub"
+        className="h-full w-full object-contain"
+      />
+    ),
+    text: 'Understanding LAN components and traffic flow.',
   },
   {
     id: nanoid(),
-    title: 'MongoDB',
-    icon: <SiMongodb className="h-16 w-16 text-green-600" />,
-    text: 'Experienced with MongoDB, leveraging NoSQL databases to create high-performance, scalable, and flexible data models.',
+    title: 'Routing',
+    icon: (
+      <img
+        src="/svg/skills/wifi-router.png"
+        alt="Router"
+        className="h-full w-full object-contain"
+      />
+    ),
+    text: 'Routing & switching foundation (VLANs, basic routing).',
   },
   {
     id: nanoid(),
-    title: 'Git',
-    icon: <FaGitAlt className="h-16 w-16 text-red-500" />,
-    text: 'Experienced with version control using Git, enabling efficient management of code changes and collaborative development.',
+    title: 'DNS',
+    icon: (
+      <img
+        src="/svg/skills/dns.png"
+        alt="DNS"
+        className="h-full w-full object-contain"
+      />
+    ),
+    text: 'Troubleshooting name resolution and DNS connectivity issues.',
   },
   {
     id: nanoid(),
-    title: 'GitHub',
-    icon: <FaGithub className="h-16 w-16 text-gray-800" />,
-    text: 'Proficient in using GitHub for source code management and collaboration, facilitating effective team projects and code reviews.',
+    title: 'DHCP',
+    icon: (
+      <img
+        src="/svg/skills/dhcp.png"
+        alt="DHCP"
+        className="h-full w-full object-contain"
+      />
+    ),
+    text: 'Dynamic addressing and DHCP troubleshooting.',
   },
   {
     id: nanoid(),
-    title: 'GitLab',
-    icon: <FaGitlab className="h-16 w-16 text-orange-500" />,
-    text: 'Skilled in GitLab for CI/CD pipelines, issue tracking, and repository management to enhance software development workflows.',
+    title: 'HTTP',
+    icon: (
+      <img
+        src="/svg/skills/http.png"
+        alt="HTTP"
+        className="h-full w-full object-contain"
+      />
+    ),
+    text: 'Understanding HTTP and common networking protocols.',
   },
   {
     id: nanoid(),
-    title: 'Vite',
-    icon: <SiVite className="h-16 w-16 text-blue-500" />,
-    text: 'Adept in using Vite for front-end tooling, appreciating its fast hot module replacement and optimized build times.',
-  },
-  {
-    id: nanoid(),
-    title: 'MySQL',
-    icon: <SiMysql className="h-16 w-16 text-blue-700" />,
-    text: 'Proficient with MySQL, designing relational databases with optimized queries and schema for efficient data storage.',
-  },
-  {
-    id: nanoid(),
-    title: 'Next.js',
-    icon: <SiNextdotjs className="h-16 w-16 text-black" />,
-    text: 'Advanced skills in Next.js for building server-side rendered React applications, improving SEO and performance.',
-  },
-  {
-    id: nanoid(),
-    title: 'Python',
-    icon: <FaPython className="h-16 w-16 text-blue-500" />,
-    text: 'Highly skilled in Python for backend development and data analysis, using popular frameworks and libraries.',
-  },
-  {
-    id: nanoid(),
-    title: 'Bootstrap',
-    icon: <FaBootstrap className="h-16 w-16 text-purple-600" />,
-    text: 'Experienced in using Bootstrap to quickly design and customize responsive, mobile-first web pages.',
-  },
-  {
-    id: nanoid(),
-    title: 'Canva',
-    icon: <SiCanva className="h-16 w-16 text-cyan-500" />,
-    text: 'Skilled in creating engaging graphics and presentations with Canva, enhancing visual content for marketing and educational purposes.',
-  },
-  {
-    id: nanoid(),
-    title: 'Netlify',
-    icon: <SiNetlify className="h-16 w-16 text-green-500" />, // Adjust the color as needed
-    text: 'Experienced with deploying and managing applications on Netlify, utilizing features like continuous deployment, live site previews, and serverless backend functions.',
+    title: 'NAT',
+    icon: (
+      <img
+        src="/svg/skills/nat.png"
+        alt="NAT"
+        className="h-full w-full object-contain"
+      />
+    ),
+    text: 'Understanding HTTP and common networking protocols.',
   },
 ]
 
@@ -156,5 +181,26 @@ export const projects = [
     github: 'https://github.com/AhmedBelghith24/Merwel-Koora',
     title: 'Vintage Soccer Jerseys Store ⚽',
     text: 'An e-commerce React app for browsing and purchasing vintage soccer jerseys. Features include dynamic product listings, admin-controlled inventory management, image uploads, and sales tracking.',
+  },
+]
+
+export const certificates = [
+  {
+    id: nanoid(),
+    title: 'Cisco Certified Network Associate (CCNA)',
+    issuer: 'Cisco',
+    img: '/certificates/ccna.png',
+  },
+  {
+    id: nanoid(),
+    title: 'FIFA Club World Cup 2025™ volunteer certificate',
+    issuer: 'FIFA',
+    img: '/certificates/FIFA.png',
+  },
+  {
+    id: nanoid(),
+    title: 'AWS Certified Cloud Practitioner (CCP)',
+    issuer: 'AWS',
+    img: '/certificates/aws.png',
   },
 ]
