@@ -1,5 +1,5 @@
 import HyperOne from './customH1/HyperOne.jsx'
-import programmerGif from '../assets/ccna.png'
+import programmerGif from '../assets/CCNAA.png'
 
 const About = () => {
   return (
