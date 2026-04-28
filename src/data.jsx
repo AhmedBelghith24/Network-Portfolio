@@ -189,7 +189,7 @@ export const certificates = [
     id: nanoid(),
     title: 'Cisco Certified Network Associate (CCNA)',
     issuer: 'Cisco',
-    img: '/certificates/ccna.png',
+    img: '/certificates/Cisco Certified Network Associate certificate.png',
   },
   {
     id: nanoid(),
